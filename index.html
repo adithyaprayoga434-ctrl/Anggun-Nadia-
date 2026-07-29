@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anggun Nadia</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+background:linear-gradient(-45deg,#6a11cb,#2575fc,#00c6ff,#7f00ff);
+background-size:400% 400%;
+animation:bg 12s ease infinite;
+padding:20px;
+}
+
+@keyframes bg{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+.card{
+width:100%;
+max-width:420px;
+padding:35px;
+text-align:center;
+border-radius:25px;
+background:rgba(255,255,255,.12);
+backdrop-filter:blur(20px);
+border:1px solid rgba(255,255,255,.2);
+box-shadow:0 20px 40px rgba(0,0,0,.35);
+animation:show 1s ease;
+}
+
+@keyframes show{
+from{opacity:0;transform:translateY(40px);}
+to{opacity:1;transform:translateY(0);}
+}
+
+img{
+width:150px;
+height:150px;
+border-radius:50%;
+border:5px solid #fff;
+object-fit:cover;
+box-shadow:0 0 30px rgba(255,255,255,.5);
+margin-bottom:20px;
+}
+
+h1{
+color:#fff;
+font-size:34px;
+margin-bottom:8px;
+}
+
+p{
+color:#eee;
+margin-bottom:25px;
+line-height:1.6;
+}
+
+a{
+display:block;
+margin:12px 0;
+padding:15px;
+border-radius:50px;
+text-decoration:none;
+font-weight:600;
+font-size:17px;
+color:#fff;
+transition:.3s;
+box-shadow:0 8px 20px rgba(0,0,0,.25);
+}
+
+a:hover{
+transform:translateY(-4px) scale(1.03);
+}
+
+.instagram{background:linear-gradient(45deg,#f58529,#dd2a7b,#8134af,#515bd4);}
+.tiktok{background:#000;}
+.whatsapp{background:#25D366;}
+.youtube{background:#ff0000;}
+
+.footer{
+margin-top:25px;
+color:#ddd;
+font-size:13px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<img src="https://i.imgur.com/4M34hi2.png" alt="Anggun Nadia">
+
+<h1>Anggun Nadia</h1>
+
+<p>Selamat datang di website resmi Anggun Nadia. Terima kasih telah berkunjung.</p>
+
+<a class="instagram" href="https://instagram.com/gunadia" target="_blank">📷 Instagram</a>
+
+<a class="tiktok" href="https://tiktok.com/@__ditt4" target="_blank">🎵 TikTok</a>
+
+<a class="whatsapp" href="https://wa.me/628137275642" target="_blank">💬 WhatsApp</a>
+
+<a class="youtube" href="https://youtube.com/" target="_blank">▶ YouTube</a>
+
+<div class="footer">
+© 2026 Anggun Nadia • All Rights Reserved
+</div>
+
+</div>
+
+</body>
+</html>
